@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+html {
+  font-size: 15px;
+  font-family: 'Spartan', sans-serif;
+  text-align: center;
+}
+
+body {
+  background-image: url("../images/bg-pattern-top-mobile.svg"), url("../images/bg-pattern-bottom-mobile.svg");
+  background-repeat: no-repeat;
+}
+
+.sec1 h1 {
+  color: #502050;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  font-weight: 700;
+}
+
+.sec1 p {
+  color: #502050;
+  line-height: 1.4rem;
+}
+
+.sec1 .star1 {
+  background-color: #f7f2f7;
+  padding: 0.5rem;
+  color: #502050;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.sec1 .star1 img {
+  padding-top: 0.5rem;
+}
+
+.sec1 .star2 {
+  background-color: #f7f2f7;
+  padding: 0.5rem;
+  color: #502050;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.sec1 .star2 img {
+  padding-top: 0.5rem;
+}
+
+.sec1 .star3 {
+  background-color: #f7f2f7;
+  padding: 0.5rem;
+  color: #502050;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.sec1 .star3 img {
+  padding-top: 0.5rem;
+}
+
+.sec2 .profile1 {
+  background-color: #502050;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-top: 2rem;
+}
+
+.sec2 .profile1 h4 {
+  color: white;
+}
+
+.sec2 .profile1 h4 span {
+  color: #937b92;
+  font-weight: 200;
+}
+
+.sec2 .profile1 p {
+  color: white;
+  padding: 0.5rem;
+}
+
+.sec2 .profile1 img {
+  border-radius: 50%;
+  height: 3rem;
+  position: absolute;
+  left: 4rem;
+  top: 41rem;
+}
+
+.sec2 .profile2 {
+  background-color: #502050;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-top: 2rem;
+}
+
+.sec2 .profile2 h4 {
+  color: white;
+}
+
+.sec2 .profile2 h4 span {
+  color: #937b92;
+  font-weight: 200;
+}
+
+.sec2 .profile2 p {
+  color: white;
+  padding: 0.5rem;
+}
+
+.sec2 .profile2 img {
+  border-radius: 50%;
+  height: 3rem;
+  position: absolute;
+  left: 4rem;
+  top: 57rem;
+}
+
+.sec2 .profile3 {
+  background-color: #502050;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-top: 2rem;
+}
+
+.sec2 .profile3 h4 {
+  color: white;
+}
+
+.sec2 .profile3 h4 span {
+  color: #937b92;
+  font-weight: 200;
+}
+
+.sec2 .profile3 p {
+  color: white;
+  padding: 0.5rem;
+}
+
+.sec2 .profile3 img {
+  border-radius: 50%;
+  height: 3rem;
+  position: absolute;
+  left: 4rem;
+  top: 71rem;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding: 4rem;
+  }
+  .sec1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .sec1 h1 {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    font-size: 3rem;
+    -ms-grid-row: 1;
+    grid-row: 1;
+    height: 20rem;
+  }
+  .sec1 p {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 1;
+    grid-row: 1;
+    padding-top: 10rem;
+  }
+  .sec1 .stars {
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  .sec1 .stars .star2 {
+    margin-left: 3rem;
+  }
+  .sec1 .stars .star3 {
+    margin-left: 6rem;
+  }
+  .sec2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .sec2 .profile1 img {
+    border-radius: 50%;
+    height: 3rem;
+    position: absolute;
+    left: 8rem;
+    top: 32rem;
+  }
+  .sec2 .profile2 img {
+    border-radius: 50%;
+    height: 3rem;
+    position: absolute;
+    left: 35rem;
+    top: 32rem;
+  }
+  .sec2 .profile3 img {
+    border-radius: 50%;
+    height: 3rem;
+    position: absolute;
+    left: 58rem;
+    top: 32rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
